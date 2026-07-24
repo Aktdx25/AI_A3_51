@@ -11,7 +11,7 @@ def div(a, b):
     return a / b
 
 
-while True:  # do-while equivalent in Python
+while True:  
     print("\nSelect the arithmetic operation you want to perform:")
     print("1. Addition\n2. Subtraction\n3. Multiplication\n4. Division\n5. Exit")
 
@@ -47,7 +47,7 @@ while True:  # do-while equivalent in Python
 
     elif ch == 5:
         print("Program closed")
-        break  # exits the loop
+        break  
 
     else:
         print("Invalid choice. Please select between 1-5.") 
