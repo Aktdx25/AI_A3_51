@@ -7,7 +7,7 @@ def f(a):
  return fact
 
 
-a=float(input("Enter the number you want to find factorial of: "))
+a=int(input("Enter the number you want to find factorial of: "))
 print(f"The number whose factorial is to be found : ",a)
 
 if(a<0):
